@@ -1,0 +1,84 @@
+body {
+    background-color: lightgray;
+}
+
+/* style padding */
+
+.padding div {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.padding .satu {
+    background-color: aqua;
+    padding: 50px;           
+}
+
+.padding .dua {
+    background-color: lightcoral;
+    padding: 20px 50px;
+}
+
+.padding .tiga {
+    background-color: lightgreen;
+    
+}
+
+/* style border */
+
+.border div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+/* cara 1 */
+.border .satu {
+    background-color: red;
+    border: 5px solid black;
+}
+
+/* cara 2 */
+.border .dua {
+    background-color: green;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: whitesmoke;
+}
+
+.border .tiga {
+    background-color: lightcoral;
+    border-left: 5px dotted black;
+}
+
+/* box-sizing */
+
+.boxSizing div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.boxSizing .satu {
+    background-color:tomato ;
+}
+
+.boxSizing .dua {
+    background-color:lightgreen ;
+    border: 10px solid black; 
+    padding: 10px;
+}
+
+.boxSizing .tiga {
+    background-color:lightseagreen ;
+    border: 10px solid black; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.boxSizing .empat {
+    background-color:tomato ;
+}

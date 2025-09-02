@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        div {
+            text-align: center;
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            font: 20px/300px arial;
+        }
+
+        .kotak1 {
+            background-color: lightblue;
+            box-shadow: 0px 40px 5px -20px rgb(0, 0, 0);
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .kotak1:hover {
+            box-shadow: 0px 60px 5px -35px rgb(0, 0, 0);
+            /* position: relative;
+            top: -20px; */
+            margin-top: 50px;
+            margin-bottom: 150px;
+        }
+
+        .kotak2 {
+            background-color: lightgreen;
+            margin-top: 100px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 0px 10px black,
+            0px 0px 0px 20px red,
+            0px 0px 0px 30px green,
+            0px 0px 0px 40px blue,
+            0px 0px 0px 50px yellow;
+        }
+
+        .kotak3 {
+            margin-top: 100px;
+            background-color: lightcoral;
+            border-radius: 50%;
+            box-shadow: inset 50px 50px red,
+            inset -50px 50px green,
+            inset 0px -50px blue;
+        }
+
+        .kotak4 {
+            margin-top: 100px;
+            background-color: black;
+            border-radius: 50%;
+            box-shadow: inset 150px 150px rgba(255, 0, 0, 0.477),
+            inset -150px 150px rgba(0, 128, 0, 0.477),
+            inset -150px -150px rgba(0, 0, 255, 0.48),
+            inset 150px -150px rgba(255, 255, 0, 0.495);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1">kotak1</div>
+    <div class="kotak2">kotak2</div>
+    <div class="kotak3">kotak3</div>
+    <div class="kotak4"></div>
+</body>
+</html>

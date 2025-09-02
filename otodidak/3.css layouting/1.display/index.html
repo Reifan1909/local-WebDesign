@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        h1 {color: tomato;}
+        h3 {color: gray;}
+
+        .inlineToBlock a{
+            display: block;
+            height: 50px;
+        }
+
+        .blockToInline ul li{
+            display: inline;
+        }
+
+        .inlineToInlineBlock a{
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>display pada css</h1>
+
+    <h3>inline to block</h3>
+    <div class="inlineToBlock">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+    </div>
+
+    <h3>block to inline</h3>
+    <div class="blockToInline">
+        <ul>
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+        </ul>
+    </div>
+
+    <h3>inline to inline_block</h3>
+    <div class="inlineToInlineBlock">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+    </div>
+</body>
+</html>

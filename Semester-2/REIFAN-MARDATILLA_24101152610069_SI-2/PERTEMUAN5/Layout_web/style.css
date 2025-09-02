@@ -1,0 +1,50 @@
+body {
+    background-color: #ccc;
+}
+
+#web {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    height: 100%;
+}
+
+#header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#menu {
+    background-color: #333333;
+    padding: 20px;
+}
+
+#content {
+
+}
+
+#content:after {
+    clear: both;
+}
+
+#kiri {
+    width: 30%;
+    float: left;
+    background-color: tomato;
+    height: 80%;
+}
+
+#kanan {
+    width: 70%;
+    float: left;
+    background-color: dodgerblue;
+    height: 80%;
+}
+
+#footer {
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}

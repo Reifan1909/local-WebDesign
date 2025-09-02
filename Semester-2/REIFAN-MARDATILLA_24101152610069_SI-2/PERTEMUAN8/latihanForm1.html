@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <b>Login: </b><br>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>User:</td> <td><input type="text" name="user" size="20"></td>
+            </tr>
+            <tr>
+                <td>Password:</td> <td><input type="password" name="password" size="20"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan" name="t1" id="">
+        <input type="reset" value="Reset" name="t1" id="">
+    </form>
+
+    <form action="" method="post">
+        Bacaan Yang Anda Sukai: <br>
+        <input type="checkbox" value="Bacaan" name="bacaan" id=""> Novel <br>
+        <input type="checkbox" value="Bacaan" name="bacaan" id=""> Koran <br>
+        <input type="checkbox" value="Bacaan" name="bacaan" id=""> Majalah <br>
+        <input type="checkbox" value="Bacaan" name="bacaan" id=""> Tabloid <br>
+    </form>
+
+    <form action="" method="post">
+        Apakah Anda Setuju Dengan Kenaikan SPP: <br>
+        <input type="radio" value="ya" name="opsi" id=""> Ya <br>
+        <input type="radio" value="tidak" name="opsi" id=""> Tidak <br>
+        <input type="radio" value="ragu" name="opsi" id=""> Ragu-Ragu <br>
+    </form>
+
+    <form action="" method="post">
+        Jurusan: <br>
+        <select name="jurusan" id="">
+            <option value="TInf">Teknik Informatika</option><br>
+            <option value="MI">Manajemen Informatika</option><br>
+            <option value="TI">Teknik Industri</option><br>
+        </select>
+    </form>
+
+    <b>Komentar: </b><br>
+    <form action="" method="post">
+        <textarea rows="10" cols="40" wrap="physical" name="komentar" id=""></textarea><br>
+    </form>
+
+    <form action="">Tanggal Lahir <input type="date" name="tgl_lahir"></form><br>
+    <form action="">Tanggal dan Jam <input type="datetime-local" name="tgl_lahir"></form><br>
+    <form action="">Jam <input type="time" name="tgl_lahir"></form><br>
+    <form action="">Minggu <input type="week" name="minggu"></form><br>
+    <form action="">Minggu <input type="file" name="foto"></form><br>
+    <form action="">Warna <input type="color" name="warna"></form><br>
+    <form action="">Kwalitas <input type="range" name="kwalitas"></form><br>
+</body>
+</html>

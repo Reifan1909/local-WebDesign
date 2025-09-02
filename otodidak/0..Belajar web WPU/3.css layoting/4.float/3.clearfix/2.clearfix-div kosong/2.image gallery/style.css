@@ -1,0 +1,20 @@
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: tomato;     
+    color: aliceblue;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+
+.clearfix {
+    clear: left;
+}

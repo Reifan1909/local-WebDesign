@@ -1,0 +1,123 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    color: #3d3d3d;
+    background-image: url(leaves.webp);
+}
+
+.topbar {
+    background-color: #4747ff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    z-index: 999;
+}
+
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: lightgray;
+    position: relative;
+}
+
+.twiter {
+    width: 200px;
+    height: 200px;
+    background-image: url(Twitter\ Ribbon-200x200.png);
+    display: inline-block;
+    position: absolute;
+    top: -23px;
+    right: -27px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul {
+    text-align: center;
+}
+
+.header ul li { 
+    display: inline-block;
+    margin: 20px 18px 0px;
+    font-size: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: #393939;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(raspi2.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+}
+
+.main {
+    width: 580px;
+    padding: 20px;
+    float: left;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: red;
+}
+
+.main .judul {
+    font: 22px/38px arial;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.main .paragraft {
+    text-indent: 30px;
+    padding: 5px 0 5px;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px 20px 0 0; 
+    font-size: 14px;   
+    float: right;
+}
+
+.sidebar .judul {
+    font: 18px/28px arial;
+    font-weight: bold;
+    padding-bottom: 5px; 
+}
+
+.sidebar img {
+    float: left;
+    margin-right: 8px;
+}
+
+.footer {
+    background-color: #3d3d3d;
+}
+
+.footer .copyright {
+    color: white;
+    margin: 15px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}

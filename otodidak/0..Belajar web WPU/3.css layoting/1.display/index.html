@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16;
+            color: tomato;
+        }
+
+        .defaultInline a {
+            display: block;
+            width: 200px;
+            height: 50px;
+        }
+
+        .defaultBlock li {
+            display: inline;
+        }
+
+        .inlineToInlineBlock a {
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>display pada css</h1>
+    
+    <h3>inline to block pada "a"</h3>
+    <div class="defaultInline">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+        <a href="#">link4</a>
+        <a href="#">link5</a>
+    </div>
+
+    <h3>block to inline pada list ( "li" )</h3>
+    <div class="defaultBlock">
+        <ul>
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+            <li><a href="#">link4</a></li>
+            <li><a href="#">link5</a></li>
+        </ul>
+    </div>
+
+    <h3>inline to inlineBlock pada "a"</h3>
+    <div class="inlineToInlineBlock">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+        <a href="#">link4</a>
+        <a href="#">link5</a>
+    </div>
+
+</body>
+
+</html>

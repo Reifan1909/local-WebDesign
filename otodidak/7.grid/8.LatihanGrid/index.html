@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2>Fauzan Store</h2>
+                <p class="sub-heading">Computer & Printer</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 10.5jt</h4>
+                <p class="item">Nitro V15</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 22.9jt</h4>
+                <p class="item">Legion Slim 5</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" name="" id="">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Fauzan Store</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">💻</div>
+                <h3>Laptop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis reiciendis reprehenderit suscipit ratione delectus.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🖨️</div>
+                <h3>Printer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis reiciendis reprehenderit suscipit ratione delectus.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🖥️</div>
+                <h3>PC Desktop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis reiciendis reprehenderit suscipit ratione delectus.</p>
+            </div>
+            <div class="service">
+                <div class="icon">📱</div>
+                <h3>Handphone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quis reiciendis reprehenderit suscipit ratione delectus.</p>
+            </div>
+        </section>
+
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+            <img src="https://picsum.photos/200/200" alt="">
+        </div>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const navv = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            navv.classList.toggle('slide');
+        });  
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* overflow */
+
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: auto;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: tomato;     
+    color: aliceblue;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+
+.container2 {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+}

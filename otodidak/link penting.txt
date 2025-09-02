@@ -1,0 +1,12 @@
+link penting:
+* font:
+	- https://fonts.google.com
+	- https://fontsquirell.com
+	- https://fontspiring.com
+	- https://webtype.com
+	- https://typotheque.com
+* filter generator >> https://cssgenerator.org/filter-css-generator.html
+
+resize gambar https://squoosh.app/
+gelombang https://getwaves.io/
+cari gambar https://unsplash.com/

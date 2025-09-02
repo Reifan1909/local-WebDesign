@@ -1,0 +1,35 @@
+.containerSatu {
+    width: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.containerDua {
+    width: 650px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.satu , .dua , .tiga , .empat , .lima , .enam {
+    width: 100px;
+    height: 100px;
+}
+
+.satu , .empat {
+    background-color: aqua;
+}
+
+.dua , .lima {
+    background-color: tomato;
+}
+
+.tiga , .enam {
+    background-color: lightgreen;
+}
+
+/* float */
+
+.lima {
+    float: right;
+}

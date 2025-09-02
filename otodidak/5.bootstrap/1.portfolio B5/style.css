@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  background-color: #a9ecff;
+}
+
+.fixed-top {
+  position: fixed;
+}
+
+.jumbotron {
+  padding-top: 80px;
+}
+
+#project {
+  background-color: #a9ecff;
+}
+
+/* svg {
+  display: block;
+  width: 100%;
+} */
+
+@media (max-width: 991px) {
+  .navbar-expand-lg {
+    position: relative;
+  }
+
+  .jumbotron {
+    padding-top: 50px;
+  }
+}

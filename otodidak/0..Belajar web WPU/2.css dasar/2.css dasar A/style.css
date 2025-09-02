@@ -1,0 +1,27 @@
+body {
+    background-image: url(leaves.webp);
+    /* background-repeat: no-repeat; */
+    /* background-position: top right; */
+}
+
+.FontStyling {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800; /*ketebalan*/
+    font-variant: small-caps;
+    font-style: italic;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: underline;
+}   
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: red;
+    text-indent: 5%;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    word-spacing: normal;
+}

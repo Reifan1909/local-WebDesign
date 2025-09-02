@@ -1,0 +1,11 @@
+.cobaInheriteBefore {
+    color: green;
+}
+
+.cobaInheriteAfter {
+    color: red;
+}
+
+.aAfter {
+    color: inherit;
+}

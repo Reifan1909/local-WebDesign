@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <header class="signup-header">
+                <h1>DAFTAR</h1>
+            </header>
+
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="name">NAMA LENGKAP</label>
+                        <input type="text" placeholder="Masukkan Nama Anda" name="nama" id="name">
+                        <span id="nameError"></span>
+                    </p>
+                    <p>
+                        <label for="name">EMAIL</label>
+                        <input type="email" placeholder="email@gmail.com" name="email" id="email">
+                        <span id="emailError"></span>
+                    </p>
+                    <p>
+                        <label for="name">PASSWORD</label>
+                        <input type="password" placeholder="at last 8 Character" name="password" id="password">
+                        <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
+                        <span id="passError"></span>
+                    </p>
+                    <p>
+                        <input type="submit" value="Buat Akun" id="submitBtn">
+                    </p>
+                </form>
+            </main>
+
+            <footer class="signup-footer">
+                <p>Belum Punya Akun? <a href="#">Login</a></p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

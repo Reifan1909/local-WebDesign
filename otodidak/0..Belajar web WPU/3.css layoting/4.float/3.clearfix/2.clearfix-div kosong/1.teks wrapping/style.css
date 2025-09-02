@@ -1,0 +1,27 @@
+.container {
+    width: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+.container2 {
+    width: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.container3 {
+    width: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.clearfix {
+    clear: left;
+}

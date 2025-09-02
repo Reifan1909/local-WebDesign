@@ -1,0 +1,67 @@
+.container {
+    width: 800px;
+    margin: auto;
+    border: 10px solid black;
+}
+
+.satu {
+    width: 200px;
+    height: 400px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.dua {
+    width: 350px;
+    height: 400px;
+    background-color: tomato;
+    float: left;
+}
+
+.tiga {
+    width: 250px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }

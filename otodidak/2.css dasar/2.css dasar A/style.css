@@ -1,0 +1,19 @@
+body {
+    background-image: url(leaves.webp);
+}
+
+.font-styling {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    color: blue;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-indent: 5%;
+    line-height: 1.5;
+}

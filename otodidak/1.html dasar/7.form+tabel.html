@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + Tabel</title>
+</head>
+<body>
+    <form action="">
+        <table border="0" cellspacing="0" cellpadding="5">
+            <tr>
+                <td><label for="user">Username</label></td>
+                <td>:</td>
+                <td><input type="text" id="user"></td>
+            </tr>
+            <tr>
+                <td><label for="pw">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="pw"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><center><input type="radio" id="pria" name="jenisKelamin"><label for="pria">Pria</label><input type="radio" id="wanita" name="jenisKelamin"><label for="wanita">Wanita</label></center></td>
+            </tr>
+            <tr>
+                <td colspan="3"><center><input type="checkbox" id="mtk"><label for="mtk">Matematika</label><input type="checkbox" id="fisika"><label for="fisika">Fisika</label></center></td>
+            </tr>
+            <tr>
+                <td><label for="bhs">Bahasa</label></td>
+                <td>:</td>
+                <td>
+                    <select name="" id="bhs">
+                        <option value="">Pilih</option>
+                        <option value="">Indonesia</option>
+                        <option value="">Inggris</option>
+                        <option value="">Arab</option>
+                        <option value="">Jepang</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="komen">Komentar</label></td>
+                <td>:</td>
+                <td><textarea name="" id="komen" rows="3" cols="17"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3"><button type="submit">Kirim</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

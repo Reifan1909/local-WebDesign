@@ -1,0 +1,94 @@
+body {
+    background-color: lightblue;
+}
+
+.cetakTipis {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2, h3 {
+    font-size: 30px;
+}
+
+.h2 {
+    color: blue;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+ul li :link {
+    color: rgb(65, 65, 65);
+}
+
+ul li :hover {
+    font-size: 25px;
+    color: brown;
+}
+
+ul li :active {
+    color: rgb(0, 89, 64);
+}
+
+ul li :visited {
+    color: greenyellow;
+}
+
+p:last-of-type {
+    color: blue;
+}
+
+p:first-of-type {
+    color: rgb(245, 77, 77);
+}
+
+li:nth-child(even) a:link{
+    color: blueviolet;
+}
+
+
+
+
+
+
+/* body {
+    background-color: lightblue;
+}
+
+p:last-of-type {
+    color: blue;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1, h3 {
+    color: tomato;
+}
+
+ul li :link {
+    text-decoration: none;
+    color: black;
+}
+
+ul li :hover {
+    color: rgb(132, 0, 255);
+}
+
+ul li :active {
+    color: brown;
+}
+
+ul li :visited {
+    color: cadetblue;
+} */

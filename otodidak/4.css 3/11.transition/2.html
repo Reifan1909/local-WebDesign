@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container {            
+            border: 1px solid black;
+            width: 705px;
+        }
+
+        .kotak {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin: 5px;
+            font: 15px/100px arial;
+            text-align: center;
+            color: white;
+        }
+
+        .kotak1 {
+            transition: transform 2s, margin-left 2s;
+        }
+        
+        .kotak2 {
+            transition: 2s ease-in;
+        }
+
+        .kotak3 {
+        transition: 2s ease-out;
+        }
+
+        .kotak4 {
+        transition: 2s ease-in-out;
+        }
+
+        .kotak5 {
+        transition: 2s linear;
+        }
+
+        .kotak6 {
+            transition: all 2s cubic-bezier(0, -1, 1, 2);
+        }
+
+        .kotak7 {
+            transition: 2s 1s;
+        }
+        
+        .container:hover .kotak {
+            background-color: aqua;
+            transform: rotate(90deg);
+            color: black;
+            margin-left: 600px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kotak kotak1">ease</div>
+        <div class="kotak kotak2">ease-in</div>
+        <div class="kotak kotak3">ease-out</div>
+        <div class="kotak kotak4">ease-in-out</div>
+        <div class="kotak kotak5">linear</div>
+        <div class="kotak kotak6">cubic-bezier</div>
+        <div class="kotak kotak7">delay</div>
+    </div>
+</body>
+</html>

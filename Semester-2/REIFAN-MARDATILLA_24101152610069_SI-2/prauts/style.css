@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background-color: lightgray; */
+    background-image: url(leaves.webp);
+    background-size: auto;
+}
+
+.container {
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+}
+
+header {
+    height: 70px;
+    background-color: #303030;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+}
+
+.image {
+    height: 420px;
+    background-image: url(kari-shea-1SAnrIxw5OY-unsplash.jpg);
+    background-size: cover;
+    background-position: 0px -210px;
+}
+
+nav .menu {
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav .menu ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #005353;
+    padding: 6px;
+    font-weight: bold;
+}
+
+nav .menu ul li a:hover {
+    color: white;
+    background-color: #005353;
+    border-radius: 8px;
+}
+
+nav .search {
+    height: 50px;
+    background-color: #00b6b6;
+}
+
+nav .search form {
+    padding: 10px 30px 10px;
+}
+
+nav .search form input[type="text"] {
+    height: 25px;
+    border: 2px solid #008a8a;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+
+.content .atas {
+    margin-top: 10px;
+}
+.content h2 {
+    color: #303030;
+    padding: 10px 20px;
+}
+.content p {
+    padding: 0px 20px;
+    text-indent: 20px;
+    text-align: justify;
+}
+.menuKiri {
+    width: 400px;
+    height: 450px;
+    background-color: #e8e7e7;
+    float: left;
+}
+.menuTengah {
+    width: 400px;
+    height: 450px;
+    background-color: #f0f0f0;
+    float: left;
+}
+.menuKanan {
+    width: 400px;
+    height: 450px;
+    background-color: #e8e7e7;
+    float: left;
+}
+
+.content .bawah {
+    margin-top: 10px;
+}
+.navigasi {
+    width: 350px;
+    height: 450px;
+    background-color: #f0f0f0;
+    float: left;
+}
+.edukasi {
+    width: 850px;
+    height: 450px;
+    background-color: #e8e7e7;
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+footer {
+    height: 70px;
+    background-color: #303030;
+}
+
+.copyright {
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+}

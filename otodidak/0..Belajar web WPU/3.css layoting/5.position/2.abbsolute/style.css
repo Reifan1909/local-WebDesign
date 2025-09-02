@@ -1,0 +1,57 @@
+.container1 {
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.container2 {
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.container3 {
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.satu {
+    background-color: aqua;
+}
+
+/* menggunakan relative */
+.dua {
+    background-color: lightgreen;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.tiga {
+    background-color: violet;
+}
+
+
+.empat {
+    background-color: aqua;
+}
+
+/* menggunakan absolute */
+.lima {
+    background-color: lightgreen;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.enam {
+    background-color: violet;
+}

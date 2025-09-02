@@ -1,0 +1,148 @@
+/* font */
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(../fonts/BebasNeue-Regular.woff) format('woff');
+}
+
+body {
+    font: 18px/36px 'BebasNeue', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 50px 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.5);
+    border-radius: 7px;
+}
+
+.gallery li {
+    width: 120px;
+    height: 120px;
+    margin: 0 15px;
+    border: 3px solid #333;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    float: left;
+    position: relative;
+}
+
+.gallery li img {
+    width: 114px;
+    border-radius: 50%;
+}
+
+.gallery li span {
+    display: inline-block;
+    width: 114px;
+    height: 114px;
+    background-color: rgba(199, 199, 199, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0) rotate(0);
+}
+
+.gallery li a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* overlay */
+.overlay {
+    /* untuk menghilangkan gambarnya */
+    width: 0;
+    height: 0;
+    overflow: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: .3s;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+}
+
+.overlay img {
+    max-height: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.overlay:target img {
+    animation: zoomImageGallery .5s;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -18px;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.overlay .close:hover {
+    color: lightskyblue;
+}
+
+.overlay:target .close {
+    animation: animasiClose .3s .3s forwards;
+}
+
+
+/* animation */
+@keyframes zoomImageGallery {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animasiClose {
+    0% {
+        opacity: 0;
+        margin-top: -30px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+

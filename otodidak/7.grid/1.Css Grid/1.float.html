@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        text-align: center;
+        width: 800px;
+        margin: auto;
+      }
+
+      header {
+        height: 50px;
+        background-color: violet;
+      }
+
+      content {
+        height: 500px;
+      }
+
+      .sidebar {
+        float: left;
+        width: 300px;
+      }
+
+      aside {
+        height: 200px;
+        background-color: blue;
+      }
+
+      nav {
+        height: 300px;
+        background-color: tomato;
+      }
+
+      main {
+        width: 500px;
+        height: 100%;
+        background-color: burlywood;
+        float: right;
+      }
+
+      footer {
+        height: 50px;
+        background-color: #333;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <div class="content">
+        <div class="sidebar">
+          <aside>Aside</aside>
+          <nav>Nav</nav>
+        </div>
+        <main>Main</main>
+      </div>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>

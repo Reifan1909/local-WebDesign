@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- tabel simple -->
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>b1,k1</td>
+            <td>b1,k2</td>
+        </tr>
+        <tr>
+            <td>b2,k1</td>
+            <td>b2,k2</td>
+        </tr>
+    </table>
+    <br><br><br>
+
+    <!-- tabel kompleks -->
+    <table border="3" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th></th>
+                <th>k1</th>
+                <th>k2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>b1</th>
+                <td>b1,k1</td>
+                <td>b1,k2</td>
+            </tr>
+            <tr>
+                <th>b2</th>
+                <td>b2,k1</td>
+                <td>b2,k2</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+
+    <!-- menggunakan atribut colspan && rowspan -->
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td rowspan="3">rowspan b1,b2,b3</td>
+            <td colspan="2">colspan k2,k3</td>
+        </tr>
+        <tr>
+            <!-- <td>b2,k1</td> -->
+            <td>b2,k2</td>
+            <td>b2,k3</td>
+        </tr>
+        <tr>
+            <!-- <td>b3,k1</td> -->
+            <td>b3,k2</td>
+            <td>b3,k3</td>
+        </tr>
+    </table>
+    <br><br><br>
+
+    <!-- latihan rowspan && colspan -->
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>b1,k1</td>
+            <td>b1,k2</td>
+            <td>b1,k3</td>
+            <td>b1,k4</td>
+        </tr>
+        <tr>
+            <td>b2,k1</td>
+            <td colspan="2" rowspan="2">colspan&rowspan</td>
+            <!-- <td>b2,k2</td> -->
+            <!-- <td>b2,k3</td> -->
+            <td>b2,k4</td>
+        </tr>
+        <tr>
+            <td>b3,k1</td>
+            <!-- <td>b3,k2</td> -->
+            <!-- <td>b3,k3</td> -->
+            <td>b3,k4</td>
+        </tr>
+        <tr>
+            <td>b4,k1</td>
+            <td>b4,k2</td>
+            <td>b4,k3</td>
+            <td>b4,k4</td>
+        </tr>
+    </table>
+    <br><br><br>
+</body>
+</html>

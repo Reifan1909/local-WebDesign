@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    margin: auto;
+    border: 5px solid black;
+    overflow: auto;
+}
+
+.satu {
+    width: 200px;
+    height: 400px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.dua {
+    width: 350px;
+    height: 400px;
+    background-color: tomato;
+    float: left;
+}
+
+.tiga {
+    width: 250px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}

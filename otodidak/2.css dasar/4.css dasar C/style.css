@@ -1,0 +1,27 @@
+/* inheritance */
+body {
+    color: green;
+}
+
+div.div1 {
+    color: red;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* specificity */
+.p2 {
+    color: blue;
+}
+
+ul#aktivitas li {
+    color: red;
+}
+
+ul#aktivitas li.li1 {
+    color: blue;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        b {
+            width: 650px;
+            margin: auto;
+            border: 1px dotted blue;
+            padding: 10px;
+            background: blue;
+            color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        table {
+            background: gray;
+            margin: auto;
+        }
+
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Form Pemesanan Barang</h2>
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tr>
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Harga</th>
+                <th>Jumlah</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Televisi 40 Inchi</th>
+                <th>@<input type="text" name="harga" id="algoritma" size="7" value="4750000" readonly></th>
+                <th>@<input type="number" name="jumlah_algoritma" id="harga_tv" size="7" value="0" onchange="total()"></th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Kompor</th>
+                <th>@<input type="text" name="harga" id="algoritma" size="7" value="500000" readonly></th>
+                <th>@<input type="number" name="jumlah_algoritma" id="harga_kompor" size="7" value="0" onchange="total()"></th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Kamera</th>
+                <th>@<input type="text" name="harga" id="algoritma" size="7" value="11000000" readonly></th>
+                <th>@<input type="number" name="jumlah_algoritma" id="harga_kamera" size="7" value="0" onchange="total()"></th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Drone</th>
+                <th>@<input type="text" name="harga" id="algoritma" size="7" value="7000000" readonly></th>
+                <th>@<input type="number" name="jumlah_algoritma" id="harga_drone" size="7" value="0" onchange="total()"></th>
+            </tr>
+            <tr>
+                <th colspan="3" style="text-align: right;">Jumlah Total</th>
+                <th>@<input type="text" name="total_jumlah" id="total" size="7" value="" readonly=""></th>
+            </tr>
+        </table>
+        <br><br>
+        <input type="button" onclick="window.print()" value="cetak">
+        <script>
+            function total(){
+                var vtv = 4750000 *
+                parseInt(document.getElementById('harga_tv').value);
+                var jumlah_harga = vtv;
+
+                var vkompor = 500000 *
+                parseInt(document.getElementById('harga_kompor').value);
+
+                var vkamera = 11000000 *
+                parseInt(document.getElementById('harga_kamera').value);
+
+                var vdrone = 7000000 *
+                parseInt(document.getElementById('harga_drone').value);
+
+                // jumlah total
+                var jumlah_harga = vtv + vkompor + vkamera + vdrone;
+                document.getElementById('total').value = jumlah_harga;
+            }
+        </script>
+    </div>
+</body>
+</html>

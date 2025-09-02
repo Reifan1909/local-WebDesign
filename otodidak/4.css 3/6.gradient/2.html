@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        div {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+        }
+        
+        .linear {
+            background: linear-gradient(to right top, orange 20%, green 80%);
+        }
+
+        .radial {
+            background: radial-gradient(circle closest-corner at center, red, green, blue);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="linear"></div>
+    <div class="radial"></div>
+
+</body>
+
+</html>
