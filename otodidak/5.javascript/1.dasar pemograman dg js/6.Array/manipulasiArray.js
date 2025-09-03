@@ -40,7 +40,7 @@ var arr = ["reifan", "endut", "yeye", "pardi", "daus", "sukk"];
 // arr.shift();
 // console.log(arr.join());
 
-// // 4. slice >> menambahkan ditengah array
+// // 4. splice >> menambahkan ditengah array
 // // splice(indexAwal, mauDihapusBerapa, elemenBaru1, ...)
 // arr.splice(2, 0, "panpan", "zul"); // disisipkan diindex ke2, hapus isi array sebanyak 0
 // console.log(arr.join());
